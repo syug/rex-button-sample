@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ReX Button Sample</title>
+    <link href="http://stg-cdn.rex.contents.rakuten.co.jp/rex-css-fw/1.1.0/rex-default.css" rel="stylesheet">
+    <style>
+      #b2 {
+        background-color: #FFF;
+        border-color: #4bcd00;
+        color: #4bcd00;
+      }
+      #b2:hover {
+        background-color: #7fdb4b;
+        border-color: transparent;
+        color: #FFF;
+      }
+
+      #b4 {
+        background-color: #ffa000;
+        border-color: #ffa000;
+      }
+      #b4:hover {
+        background-color: #ffba46;
+        border-color: transparent;
+      }
+
+      #b5 {
+        background-color: #ff41be;
+        border-color: #ff41be;
+      }
+      #b5:hover {
+        background-color: #ff69cc;
+        border-color: transparent;
+      }
+
+      .container {
+        margin: 0 auto;
+        padding: 50px 0;
+        text-align: center;
+      }
+      .container a {
+        margin: 10px;
+      }
+
+      .btn.icon .rex-icon.left {
+        margin-right: 0.5em;
+      }
+      
+      .ex-large {
+        font-size: 26px;
+        padding: 16px 40px;
+      }
+      .ex-large .rex-icon {
+        font-size: 1em;
+      }
+      .large {
+        font-size: 22px;
+        padding: 8px 32px;
+      }
+      .large .rex-icon {
+        font-size: 1em;
+      }
+      .small {
+        font-size: 12px;
+        padding: 10px;
+      }
+      .small .rex-icon {
+        font-size: 1em;
+      }
+    </style>
+  </head>
+
+    <!-- 1. Large、赤、買い物カゴのアイコン、”Add to cart” -->
+    <!-- 2. 通常サイズ、緑、セカンダリー、サーチのアイコン、”検索” -->
+    <!-- 3. XL、赤、ピル、”キャンペーンにエントリーする” -->
+    <!-- 4. 通常サイズ、オレンジ、丸ボタン、rex-icon button-chevron-right-lのアイコン -->
+    <!-- 5. Small, ピンク、ハートアイコン、”お気に入り” -->
+
+    <div class="container">
+      <a id="b1" type="button" class="btn btn-default icon large"><span class="rex-icon cart-f left"></span>Add to cart</a>
+      <a id="b2" type="button" class="btn btn-default btn-outline icon"><span class="rex-icon search left"></span>検索</a>
+      <a id="b3" type="button" class="btn btn-default btn-pill ex-large">キャンペーンにエントリする</a>
+      <a id="b4" type="button" class="btn btn-circle btn-default rex-icon chevron-right"></a>
+      <!-- <a type="button" class="btn btn-circle btn-outline rex-icon chevron-right"></a> -->
+      <a id="b5" type="button" class="btn btn-default icon small"><span class="rex-icon heart-f left"></span>お気に入り</a>
+    </div>
+
+  </body>
+</html>
