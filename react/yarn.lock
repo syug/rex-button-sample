@@ -6229,10 +6229,11 @@ ret@~0.1.10:
 
 "rex-css-framework@git+ssh://git@github.com:rakuten-frontend/rex-css-framework.git#develop":
   version "0.0.1"
-  resolved "git+ssh://git@github.com:rakuten-frontend/rex-css-framework.git#cdac4e73dfbea61ff705ec1fa900b54419b5f9f3"
+  resolved "git+ssh://git@github.com:rakuten-frontend/rex-css-framework.git#f159e045feafa8f8c6007cd33390ab2beaec196e"
   dependencies:
     axios "^0.15.3"
     babel-polyfill "^6.26.0"
+    classnames "^2.2.5"
     clean-webpack-plugin "^0.1.17"
     immutable "^3.8.1"
     js-beautify "^1.6.14"
